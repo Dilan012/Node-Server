@@ -7,7 +7,11 @@ app.get('/', (req, res) => {
 })
 
 app.get('/test2',(req,res) =>{
+<<<<<<< HEAD
     res.send("another endpoint")
+=======
+    res.send("test2 endpoint")
+>>>>>>> 6ce419e (add another endpoint with get methos)
 })
 
 app.listen(port, () => {
