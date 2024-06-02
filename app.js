@@ -15,7 +15,7 @@ app.get('/test2',(req,res) =>{
 >>>>>>> 6ce419e (add another endpoint with get methos)
 =======
     res.send("another endpoint")
->>>>>>> 1e5a64e (add another endpoint for newly created endpoint)
+>>>>>>> 1e5a64e (change the return value of newly created endpoint)
 })
 
 app.listen(port, () => {
