@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/test2',(req,res) =>{
-    res.send("test2 endpoint")
+    res.send("another endpoint")
 })
 
 app.listen(port, () => {
